@@ -250,7 +250,7 @@ for (i in 1:4) {
   profit_xsell_buffer <- c()
   profit_e_uplift_buffer <- c()
   profit_profitloss_buffer <- c()
-  for (j in 2122:2142) {
+  for (j in 2022:2123) {
     counter <- counter + 1
     results_buffer <- run_analysis(xsell,j,8,lr,maxrounds,stoprounds,10)
     xsell_calib_cumsums[paste0('params_',i,'_cumsum_xsell_calib_seed_',j)] <- list(results_buffer[[1]])
