@@ -1,0 +1,12 @@
+I downloaded full tables from public
+
+These tables were downloaded
+# - Business
+# - Checkin
+# - Review
+# THE TOTAL DATA OF THE REVIEW TABLE IS NEAR 5 GB ->
+#   Cannot be downloaded from the SQL server as a single csv
+#   -> Solution: download the data in chunks of 500k rows, include them all
+#               in a folder "reviews" within the data folder. Then by looping read all of them
+# - Photos
+# - Tips 
